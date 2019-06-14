@@ -55,4 +55,5 @@ print('RMSE:', np.sqrt(metrics.mean_squared_error(Y_test, predictions)))
 sns.distplot((Y_test-predictions))  # Observe residual errors
 
 # Looking at coefficients, length of membership  is the best predictor for how much the member spends on clothing from this company.
-# If they want to improve business, they should focus more on improving their website, since their website has not been contributing much to sales.
+# If they want to improve business, they may want to focus more on improving their website, since their website has not been contributing much to sales.
+#   Ultimately, their changes will also depend on how much the change will cost, which is not provided in this data set.
