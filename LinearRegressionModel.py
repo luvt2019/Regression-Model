@@ -1,4 +1,4 @@
-import pandas as pd
+timport pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -55,4 +55,4 @@ print('RMSE:', np.sqrt(metrics.mean_squared_error(Y_test, predictions)))
 sns.distplot((Y_test-predictions))  # Observe residual errors
 
 # Looking at coefficients, length of membership  is the best predictor for how much the member spends on clothing from this company.
-# If they want to improve business, they should focus more on improving their mobile app, since members spend more time on the app than on the website
+# If they want to improve business, they should focus more on improving their website, since their website has not been contributing much to sales.
